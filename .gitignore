@@ -17,7 +17,7 @@
 /wp-*.php
 /xmlrpc.php
 
-# Configuration files bb
+# Configuration files bbdgdf
 wp-config.php
 
 # Example themes

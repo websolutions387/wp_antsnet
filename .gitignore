@@ -3,37 +3,42 @@
 
 # Core
 #
-# Note: if you want to stage/commit WP core file test
+# Note: if you want to stage/commit WP core file
 # you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+/app/public/wp-admin/
+/app/public/wp-content/index.php
+/app/public/wp-content/languages
+/app/public/wp-includes/
+/app/public/index.php
+/app/public/license.txt
+/app/public/readme.html
+/app/public/wp-*.php
+/app/public/xmlrpc.php
+/app/public/local-xdebuginfo.php/
+/conf/
+/logs/
+
 
 # Configuration files
-wp-config.php
+/app/public/wp-config.php
 
 # Example themes
-/wp-content/themes/twenty*/
+/app/public/wp-content/themes/twentytwentyfive/
+/app/public/wp-content/themes/twentytwentyfour/
+/app/public/wp-content/themes/twentytwentythree/
+/app/public/wp-content/themes/index.php/
 
 # Example plugin
-/wp-content/plugins/hello.php
+/app/public/wp-content/plugins/
 
 # Uploads
-/wp-content/uploads/
+/app/public/wp-content/uploads/
 
 # Log files
 *.log
 
 # htaccess
-/.htaccess
+/app/public/.htaccess
 
 # All plugins
 #
